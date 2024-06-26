@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .then((response) => response.json())
       .then((data) => {
         const cardSection = document.querySelector(".card-section");
-        console.log(cardSection);
+        //console.log(cardSection);
         data.forEach((item) => {
           const card = document.createElement("div");
-          console.log(item.imgSrc);
+          //console.log(item.imgSrc);
           card.classList.add("card");
           card.innerHTML = `
                         <img src="${item.imgSrc}" alt="" class="card-main-img"/>
