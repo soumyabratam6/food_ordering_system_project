@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/855b158b42.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Modal Structure -->
+    <div id="thankYouModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-text">
+          <p>Thank you for eating with us today!</p>
+        </div>
+        <button id="closeModal" class="close-modal-btn">Close</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="side-bar">
+        <div class="close-btn">
+          <div class="close">✖</div>
+        </div>
+
+        <img src="asset/image1.svg" alt="Restaurant Logo" />
+        <p class="small-heading">Your Restaurant Menu</p>
+        <p class="slogan">Your Slogan</p>
+        <hr />
+        <div class="quick-link">
+          <p class="small-heading mar-button">Quick Links</p>
+          <ul>
+            <li><a href="#">1. Home</a></li>
+            <li><a href="#">2. Your Orders</a></li>
+            <li><a href="#">3. Wallet</a></li>
+            <li><a href="#">4. Profile</a></li>
+            <li><a href="#">5. Logout</a></li>
+            <li><a href="#">6. Menu/secondScreen</a></li>
+          </ul>
+        </div>
+        <hr />
+        <div class="more-about-us">
+          <p class="small-heading mar-button">More About Us</p>
+          <ul>
+            <li><a href="#">1. Our blog</a></li>
+            <li><a href="#">2. Upcoming Dishes</a></li>
+            <li><a href="#">3. Our Story</a></li>
+            <li><a href="#">4. Story Social Media Links</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="nav-element">
+          <div class="hamburger">
+            <div class="open">☰</div>
+          </div>
+          <div class="search">
+            <form action="#">
+              <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              <input type="text" placeholder="Search Food Item" />
+            </form>
+          </div>
+          <button class="red-btn signup">Signup</button>
+          <button class="red-btn">Login</button>
+          <img
+            src="asset/—Pngtree—javanese character with blangkon holding_8999487 2.svg"
+            alt="small-logo1"
+            class="small-logo"
+          />
+        </div>
+        <div class="helping-class"></div>
+        <div class="hero-img">
+          <img
+            src="asset/Screenshot 2023-07-14 at 11.14 1.svg"
+            alt="heroImage"
+            class="main_hero_img"
+          />
+        </div>
+        <section class="menu">
+          <p class="small-heading">Menu</p>
+          <div class="card-section"></div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
